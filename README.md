@@ -39,4 +39,4 @@ Thanks for the above contribution and *[inorichi](https://github.com/inorichi/zm
 2. To change the defaul CPI, go to `zmk-config-Keyball44/blob/main/config/boards/shields/keyball_nano/keyball44_right.conf`: [CONFIG_PMW3610_CPI=1200](https://github.com/superxc3/zmk-config-Keyball44/blob/f8baf78875826e159ae2df97b634e0c81fdea17c/config/boards/shields/keyball_nano/keyball44_right.conf#L7). Other trackball config could be changed in the same file too, eg., snipe CPI, scroll direction etc.
 3. You may turn off the Auto Mouse layer if you find it is too sensitive, go to `zmk-config-Keyball44/blob/main/config/boards/shields/keyball_nano/keyball44_right.overlay`: [automouse-layer = <4>;](https://github.com/superxc3/zmk-config-Keyball44/blob/ff51495a1cc33ca3d4c3b530bc5b413b647f6a70/config/boards/shields/keyball_nano/keyball44_right.overlay#L59) and add `//` in front of it, or just remove the line. 
 
-<img src="keymap-drawer/keyball44.svg" >
+
