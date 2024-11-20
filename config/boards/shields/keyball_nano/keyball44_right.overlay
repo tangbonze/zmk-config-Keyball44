@@ -56,6 +56,9 @@
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 	scroll-layers = <5>;
 	snipe-layers = <6>;
+	automouse-layer = <4>;
+        /*   reference if intends to map the behaviro more than 1 layer   */
+        // scroll-layers = <2 3>;
     };
 };
 
