@@ -75,7 +75,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &sys_reset
 &none   &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT                &none
 &none   &trans           &trans        &trans        &trans        &trans                   &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH   &none
 &trans  &trans           &trans        &trans        &trans                         &trans  &trans                                                                                        &trans
@@ -95,10 +95,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &kp N1          &kp N2          &kp N3        &kp N4     &kp N5              &kp N6         &kp N7     &kp N8  &kp N9     &kp N0     &none
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none               &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK  &none
-&none   &none           &none           &none         &none      &none               &kp PAGE_DOWN  &none      &none   &none      &none      &none
-&trans  &trans          &trans          &trans        &trans                 &trans  &trans                                                  &none
+&none   &kp N1          &kp N2          &kp N3        &kp N4     &kp N5                 &kp N6         &kp N7     &kp N8  &kp N9     &kp N0     &none
+&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                  &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK  &none
+&none   &none           &none           &none         &none      &none                  &kp PAGE_DOWN  &none      &none   &none      &none      &none
+&trans  &trans          &trans          &trans        &trans                 &mkp RCLK  &mkp LCLK                                               &none
             >;
         };
 
@@ -115,10 +115,10 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
+&sys_reset  &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans              &mkp RCLK  &mkp LCLK                                  &trans
             >;
         };
     };
