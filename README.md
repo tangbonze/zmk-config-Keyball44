@@ -16,9 +16,11 @@ Thanks for the above contribution and *[inorichi](https://github.com/inorichi/zm
 ## Notes
 ### Flashing
 1. If you only change the keymap, you can just flash to the master side. For Keyball series, master is on the right. That means you don’t need to flash left and right.
-2. Double press the corner two buttons together for reset bootloader. If double press doesn’t call out the new folder to drag your UF2, check MY COMPUTER for any new drive, or you may need to double press even faster.
-3. You don’t need to delete any files in the nicenano folder, just drag your new right UF2 to it and ignore and skip any errors.
-4. Normally, you don’t need to re-pair after formatting. It will pair automatically.  
+2. Hold the red button and double tap the green button quickly to call out the bootloader. If this cant work, unscrew the oled cover and double press the reset button twice. If double press doesn’t call out the new folder to drag your UF2, check MY COMPUTER for any new drive, or you may need to double press even faster.
+3. You don’t need to delete any files in the nicenano folder. Extract the `firmware.zip`, you will get `keyball44_right-nice_nano_v2-zmk.uf2` - drag this to the nicenano folder. Ignore and skip any errors.
+4. If left oled shows a cross button, you will need to drop `keyball44_left-nice_nano_v2-zmk.uf2` to the left too. Proceed to flash the left by following Step2 to 4. Ignore and skip any errors.
+5. This `settings_reset-nice_nano_v2-zmk.uf2` is a backup uf2 to reset everything, you dont need this unless you know what you are doing.  
+6. Normally, you don’t need to re-pair after formatting. It will pair automatically.  
    <br>
    
 These are preset reset button for keyball44 wireless to replace the harder-to-reach physical reboot button. To activate, hold the red inner thumb key and tap the outer key twice on each side to call up the reboot folder.
