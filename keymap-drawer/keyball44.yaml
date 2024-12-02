@@ -101,7 +101,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -270,7 +270,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
