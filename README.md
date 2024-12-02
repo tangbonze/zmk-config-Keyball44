@@ -48,6 +48,7 @@ These are preset reset button for keyball44 wireless to replace the harder-to-re
 3. You may turn off the Auto Mouse layer if you find it is too sensitive, go to `zmk-config-Keyball44/blob/main/config/boards/shields/keyball_nano/keyball44_right.overlay`: [automouse-layer = <4>;](https://github.com/superxc3/zmk-config-Keyball44/blob/ff51495a1cc33ca3d4c3b530bc5b413b647f6a70/config/boards/shields/keyball_nano/keyball44_right.overlay#L59) and add `//` in front of it, or just remove the line. 
 
 <br>
+
 ## Default Keymap
 <img src="keymap-drawer/keyball44.svg" >
 
