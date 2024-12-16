@@ -12,6 +12,11 @@ Thanks for the above contribution and *[inorichi](https://github.com/inorichi/zm
 [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) <br>
 [Github, Keymap Editor Setup and Flashing](https://github.com/superxc3/zmk_config_sofle#steps) - using Sofle wireless as reference<br>
 
+## Attention on Mousekeys Configuration
+There will be compilation failed if you using Keymap Editor, this happens due to zmk mousekey update. 
+|![image](https://github.com/user-attachments/assets/b0967377-9330-4580-888c-14ac403a6166)|
+|:--|
+|Please go to `config/keyball44.keymap` and delete this line `#include <dt-bindings/zmk/pointing.h>` every time you finish configuring the keymap in the Keymap Editor.|
 
 ## Notes
 ### Flashing
