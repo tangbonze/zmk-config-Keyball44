@@ -504,6 +504,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 370)" class="layer-NUM">
@@ -728,6 +736,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 </g>
 </g>
@@ -961,6 +977,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1110)" class="layer-FUN">
@@ -1186,6 +1210,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 </g>
 </g>
@@ -1421,6 +1453,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1850)" class="layer-SCROLL">
@@ -1645,6 +1685,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2220)" class="layer-SNIPE">
@@ -1868,6 +1916,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 </g>
 </g>
