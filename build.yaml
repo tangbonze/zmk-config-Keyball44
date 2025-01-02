@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: keyball44_left
+    shield: keyball44_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: keyball44_right
+    shield: keyball44_right nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: settings_reset
