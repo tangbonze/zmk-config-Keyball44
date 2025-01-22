@@ -11,6 +11,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -66,7 +68,7 @@
             bindings = <
 &kp TAB           &kp Q  &kp W         &kp E      &kp R  &kp T             &kp Y      &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
 &kp LEFT_SHIFT    &kp A  &kp S         &kp D      &kp F  &kp G             &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X         &kp C      &kp V  &kp B             &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp INTERNATIONAL_7
+&kp LEFT_CONTROL  &kp Z  &kp X         &kp C      &kp V  &kp B             &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp INTERNATIONAL_8
 &kp LGUI          &none  &kp LEFT_ALT  &kp SPACE  &mo 1             &mo 2  &kp ENTER                                        &mo 4
             >;
         };
