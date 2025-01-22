@@ -76,10 +76,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp TILDE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0         &kp BACKSPACE
-&kp LEFT_SHIFT    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                   &kp F6          &kp F7        &kp F8          &kp F9           &kp F10              &kp DELETE
-&kp LEFT_CONTROL  &kp F11       &kp F12       &none         &none         &kp ESCAPE               &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4
-&kp LEFT_WIN      &kp LEFT_ALT  &trans        &kp SPACE     &trans                          &mo 3  &kp ENTER                                                                           &trans
+&kp LANG_ZENKAKUHANKAKU  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0         &kp BACKSPACE
+&kp LEFT_SHIFT           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                   &kp F6          &kp F7        &kp F8          &kp F9           &kp F10              &kp DELETE
+&kp LEFT_CONTROL         &kp F11       &kp F12       &none         &none         &kp ESCAPE               &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4
+&kp LEFT_WIN             &kp LEFT_ALT  &trans        &kp SPACE     &trans                          &mo 3  &kp ENTER                                                                           &trans
             >;
         };
 
