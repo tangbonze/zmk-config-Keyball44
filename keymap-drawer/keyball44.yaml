@@ -37,8 +37,8 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: _}
   - LGUI
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - NUM
   - SYM
@@ -82,8 +82,8 @@ layers:
   - INTERNATIONAL 5
   - INTERNATIONAL 4
   - LEFT WIN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {type: held}
   - SCROLL
