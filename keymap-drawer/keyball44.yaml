@@ -38,12 +38,12 @@ layers:
   - {t: \, s: _}
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: QWRT}
+  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: MOUSE, h: toggle}
+  - MOUSE
   NUM:
   - '~'
   - '1'
@@ -223,7 +223,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   FUN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
