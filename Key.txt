@@ -1,3 +1,4 @@
 INTERNATIONAL_6 ,(カンマ) : |(縦棒)
 INTERNATIONAL_3 : \(エン) 
 INTERNATIONAL_1 : \(エン)・_(アンダーバー)
+
