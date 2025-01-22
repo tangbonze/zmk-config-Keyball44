@@ -1,0 +1,3 @@
+INTERNATIONAL_6 : ,(カンマ) = |
+INTERNATIONAL_3 : \(エン)   = \
+
