@@ -86,10 +86,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp TAB           &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp LEFT_SHIFT    &kp CAPSLOCK     &kp INSERT   &kp HOME          &kp PAGE_UP        &kp PAGE_DOWN                &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp DELETE
-&kp LEFT_CONTROL  &kp END          &none        &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP              &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp NON_US_BACKSLASH   &kp C_MENU
-&none             &none            &trans       &kp SPACE         &mo 3                                   &trans  &kp ENTER                                                                                     &none
+&kp TAB           &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp BACKSPACE
+&kp LEFT_SHIFT    &kp CAPSLOCK     &kp INSERT   &kp HOME          &kp PAGE_UP        &kp PAGE_DOWN                &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH         &kp DELETE
+&kp LEFT_CONTROL  &kp END          &none        &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP              &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp NON_US_BACKSLASH  &kp C_MENU
+&none             &none            &trans       &kp SPACE         &mo 3                                   &trans  &kp ENTER                                                                                    &none
             >;
         };
 
