@@ -40,7 +40,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - NUM
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MOUSE
