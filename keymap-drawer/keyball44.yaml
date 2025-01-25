@@ -163,7 +163,7 @@ layers:
   - AC SEARCH
   - AC HOME
   - AC REFRESH
-  - SLEEP MODE
+  - SLEEP
   - $$mdi:power-standby$$
   - KP 0
   - KP 1
