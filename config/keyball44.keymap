@@ -96,10 +96,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &bt BT_CLR            &bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2      &trans                   &kp KP_NUM       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &kp BACKSPACE
-&trans  &kp C_AL_MY_COMPUTER  &kp C_AL_CALC  &kp PRINTSCREEN   &trans            &trans                   &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA  &kp DELETE
-&trans  &kp C_AC_SEARCH       &kp C_AC_HOME  &kp C_AC_REFRESH  &kp C_SLEEP_MODE  &kp C_POWER              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
-&trans  &trans                &trans         &trans            &trans                             &trans  &trans                                                                         &trans
+&trans  &bt BT_CLR            &bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2  &trans                   &kp KP_NUM       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &kp BACKSPACE
+&trans  &kp C_AL_MY_COMPUTER  &kp C_AL_CALC  &kp PRINTSCREEN   &trans        &trans                   &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA  &kp DELETE
+&trans  &kp C_AC_SEARCH       &kp C_AC_HOME  &kp C_AC_REFRESH  &kp K_SLEEP   &kp C_POWER              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
+&trans  &trans                &trans         &trans            &trans                         &trans  &trans                                                                         &trans
             >;
         };
 
