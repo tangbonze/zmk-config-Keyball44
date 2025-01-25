@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MOUSE
   NUM:
-  - LANG ZENKAKUHANKAKU
+  - LANGUAGE 5
   - '1'
   - '2'
   - '3'
@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PREV
-  - NEXT
+  - AL NEXT TASK
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   FUN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
