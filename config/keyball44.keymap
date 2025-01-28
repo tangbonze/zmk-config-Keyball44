@@ -11,6 +11,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -74,10 +76,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp LANGUAGE_5    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0         &kp BACKSPACE
-&kp LEFT_SHIFT    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                   &kp F6          &kp F7        &kp F8          &kp F9           &kp F10              &kp DELETE
-&kp LEFT_CONTROL  &kp F11       &kp F12       &none         &none         &kp ESCAPE               &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4
-&kp LEFT_WIN      &none         &kp LEFT_ALT  &kp SPACE     &trans                          &mo 3  &kp ENTER                                                                           &trans
+&kp LANG_ZENKAKUHANKAKU  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0         &kp BACKSPACE
+&kp LEFT_SHIFT           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                   &kp F6          &kp F7        &kp F8          &kp F9           &kp F10              &kp DELETE
+&kp LEFT_CONTROL         &kp F11       &kp F12       &none         &none         &kp ESCAPE               &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4
+&kp LEFT_WIN             &none         &kp LEFT_ALT  &kp SPACE     &trans                          &mo 3  &kp ENTER                                                                           &trans
             >;
         };
 
@@ -104,10 +106,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &none           &none           &none           &none            &none                  &none               &none      &none      &none      &none  &none
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &none                  &mkp MB4            &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
-&none   &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT  &none                  &mkp MB5            &none      &none      &none      &none  &none
-&trans  &trans          &trans          &trans          &trans                      &kp K_PREV  &kp C_AL_NEXT_TASK                                          &none
+&none   &none           &none           &none         &none            &none                  &none       &none           &msc SCRL_UP    &none            &none  &none
+&none   &none           &none           &none         &none            &none                  &mkp MB5    &mkp LCLK       &mkp MCLK       &mkp RCLK        &none  &none
+&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none                  &mkp MB4    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
+&trans  &trans          &trans          &trans        &trans                      &kp K_PREV  &kp C_NEXT                                                          &none
             >;
         };
 
@@ -118,15 +120,6 @@
 &none   &kp F5  &kp F6   &kp F7   &kp F8   &none              &none  &none  &none  &none  &none  &none
 &none   &kp F9  &kp F10  &kp F11  &kp F12  &none              &none  &none  &none  &none  &none  &none
 &trans  &trans  &trans   &trans   &trans              &trans  &mo 5                              &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
         };
     };
