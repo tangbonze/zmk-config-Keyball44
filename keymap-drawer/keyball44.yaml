@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MOUSE
   NUM:
-  - LANGUAGE 2
+  - LANGUAGE 3
   - '1'
   - '2'
   - '3'
