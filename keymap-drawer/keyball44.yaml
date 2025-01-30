@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MOUSE
   NUM:
-  - LANGUAGE 3
+  - LANGUAGE 4
   - '1'
   - '2'
   - '3'
@@ -124,7 +124,7 @@ layers:
   - +
   - '{'
   - '}'
-  - \
+  - {t: Sft+\, s: Sft+|}
   - MENU
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
