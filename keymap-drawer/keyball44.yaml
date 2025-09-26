@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  CMDH:
+  def:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -41,7 +41,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - CMDH
+  - def
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - $$mdi:keyboard-tab$$
   - SYM
