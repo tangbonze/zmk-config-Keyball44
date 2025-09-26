@@ -54,7 +54,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "CMDH";
+            label = "def";
             bindings = <
 &kp TAB         &kp Q        &kp W           &kp F           &kp P             &kp B                   &kp J    &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
 &kp LEFT_GUI    &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G                   &kp M    &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
@@ -63,7 +63,7 @@
             >;
         };
 
-        windows {
+        windows_layer {
             bindings = <
 &trans     &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
 &kp LCTRL  &mt LEFT_GUI A  &trans  &mt LCTRL S  &trans  &trans              &trans  &trans  &mt RCTRL E  &trans  &mt RIGHT_GUI O  &trans
