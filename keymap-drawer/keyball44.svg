@@ -265,8 +265,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-def">
-<text x="0" y="28" class="label" id="def">def:</text>
+<g transform="translate(40, 0)" class="layer-DEFAULT">
+<text x="0" y="28" class="label" id="DEFAULT">DEFAULT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -506,8 +506,8 @@ rect.held, rect.combo.held {
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 370)" class="layer-win">
-<text x="0" y="28" class="label" id="win">win:</text>
+<g transform="translate(40, 370)" class="layer-WIN">
+<text x="0" y="28" class="label" id="WIN">WIN:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1547,8 +1547,8 @@ rect.held, rect.combo.held {
 <g transform="translate(812, 112)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#win">
-<text x="0" y="-4" class="key tap layer-activator">win</text>
+<a href="#WIN">
+<text x="0" y="-4" class="key tap layer-activator">WIN</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 168)" class="key none keypos-24">

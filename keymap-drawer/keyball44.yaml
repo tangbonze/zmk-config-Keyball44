@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  def:
+  DEFAULT:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - $$mdi:keyboard-tab$$
   - MOUSE
-  win:
+  WIN:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,7 +249,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: win, h: toggle}
+  - {t: WIN, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
