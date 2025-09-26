@@ -63,14 +63,13 @@
         };
 
         windows_layer {
+            label = "WIN";
             bindings = <
 &trans     &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
 &kp LCTRL  &mt LEFT_GUI A  &trans  &mt LCTRL S  &trans  &trans              &trans  &trans  &mt RCTRL E  &trans  &mt RIGHT_GUI O  &trans
 &trans     &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
 &trans     &trans          &trans  &trans       &trans              &trans  &trans                                                &trans
             >;
-
-            label = "WIN";
         };
 
         qwerty_layer {
