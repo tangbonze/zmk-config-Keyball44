@@ -1,10 +1,9 @@
 #define DEFAULT 0
-#define NUM     1
-#define SYM     2
-#define FUN     3
-#define MOUSE   4
-#define SCROLL  5
-#define SNIPE   6
+#define WIN     1
+#define QWRT    2
+#define NUM     3
+#define SYM     4
+#define MOUSE   5
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -54,7 +53,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "def";
+            label = "DEFAULT";
             bindings = <
 &kp TAB         &kp Q        &kp W           &kp F           &kp P             &kp B                   &kp J    &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
 &kp LEFT_GUI    &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G                   &kp M    &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
@@ -71,7 +70,7 @@
 &trans     &trans          &trans  &trans       &trans              &trans  &trans                                                &trans
             >;
 
-            label = "win";
+            label = "WIN";
         };
 
         qwerty_layer {
