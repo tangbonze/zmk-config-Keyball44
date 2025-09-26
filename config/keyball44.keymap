@@ -96,10 +96,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                    &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT   &none
-&none   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                   &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &none
-&none   &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH              &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN   &none
-&trans  &trans           &trans         &trans            &trans                                &trans  &trans                                                                                    &trans
+&none   &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                    &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp PERCENT  &none
+&none   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                   &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RPAR           &kp QMARK    &none
+&none   &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH              &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp AT_SIGN  &none
+&trans  &trans           &trans         &trans            &trans                                &trans  &trans                                                                               &trans
             >;
         };
 
