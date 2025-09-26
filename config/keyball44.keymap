@@ -108,7 +108,7 @@
             label = "MOUSE";
             bindings = <
 &bt BT_NXT  &none   &none     &kp UP_ARROW  &none      &none              &none   &none      &none      &none      &none  &tog 2
-&none       &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none              &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &none
+&none       &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none              &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &tog 1
 &none       &none   &none     &none         &none      &none              &none   &none      &none      &none      &none  &none
 &trans      &trans  &trans    &trans        &trans                &trans  &trans                                          &trans
             >;
