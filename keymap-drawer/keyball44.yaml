@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - MOUSE
+  - {t: MOUSE, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
