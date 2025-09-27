@@ -55,10 +55,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB         &kp Q        &kp W           &kp F           &kp P             &kp B                   &kp J    &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
-&kp LEFT_GUI    &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G                   &kp M    &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X           &kp C           &kp D             &kp V                   &kp K    &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &kp RIGHT_SHIFT
-&kp ESCAPE      &kp DELETE   &kp BACKSPACE   &kp SPACE       &mo 4                        &lt 3 ENTER  &kp TAB                                                                      &mo 5
+&kp TAB         &kp Q        &kp W           &kp F           &kp P             &kp B                 &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
+&kp LEFT_GUI    &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G                 &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
+&kp LEFT_SHIFT  &kp Z        &kp X           &kp C           &kp D             &kp V                 &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &kp RIGHT_SHIFT
+&kp ESCAPE      &kp DELETE   &kp BACKSPACE   &kp SPACE       &mo 4                        &kp ENTER  &lt 3 TAB                                                                      &mo 5
             >;
         };
 
@@ -95,10 +95,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                    &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp PERCENT  &none
-&none   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                   &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RPAR           &kp QMARK    &none
-&none   &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH              &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp AT_SIGN  &none
-&trans  &trans           &trans         &trans            &trans                                &trans  &trans                                                                               &trans
+&none   &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                    &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT   &none
+&none   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                   &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &none
+&none   &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH              &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN   &none
+&trans  &trans           &trans         &trans            &trans                                &trans  &trans                                                                                    &trans
             >;
         };
 
