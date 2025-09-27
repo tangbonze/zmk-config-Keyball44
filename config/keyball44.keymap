@@ -55,8 +55,7 @@
             bindings = <&kp BACKSPACE>, <&kp DEL>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-            keep-mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
@@ -69,7 +68,7 @@
 &kp ESC         &kp Q        &kp W           &kp F           &kp P             &kp B             &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp DELETE
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G             &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp RIGHT_CONTROL
 &kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V             &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 5
-&kp LEFT_ALT    &kp TAB      &bkdel          &kp SPACE       &mo 4                        &sl 3  &kp ENTER                                                                      &caps_word
+&kp LEFT_ALT    &kp TAB      &bkdel          &kp SPACE       &sl 4                        &sl 3  &kp ENTER                                                                      &caps_word
             >;
         };
 
