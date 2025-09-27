@@ -97,28 +97,28 @@
             bindings = <
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &trans
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &none              &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
-&trans  &trans  &trans   &trans   &trans              &trans  &trans                                                       &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &sl 5
+&trans  &trans  &trans   &trans   &sl 4               &trans  &trans                                                       &trans
             >;
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                    &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT   &trans
-&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                   &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH              &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN   &trans
-&trans  &trans           &trans         &trans            &trans                                &trans  &trans                                                                                    &trans
+&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT                   &kp AMPERSAND  &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT   &trans
+&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH                  &kp PIPE       &kp COLON       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp CARET        &kp SLASH      &kp ASTERISK      &kp PERIOD         &kp BACKSLASH             &kp TILDE      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN   &sl 5
+&trans  &trans           &trans         &trans            &trans                                &sl 3  &trans                                                                                    &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &none   &none     &kp UP_ARROW  &none      &out OUT_TOG              &tog 2  &none  &none      &none      &none      &trans
-&trans  &none   &kp LEFT  &kp DOWN      &kp RIGHT  &bt BT_NXT                &tog 1  &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &none   &none     &none         &none      &bt BT_CLR                &none   &none  &none      &none      &none      &trans
-&trans  &trans  &trans    &trans        &trans                       &trans  &trans                                          &trans
+&trans  &none   &none     &kp UP_ARROW  &none      &out OUT_TOG             &tog 2  &none  &none      &none      &none      &trans
+&trans  &none   &kp LEFT  &kp DOWN      &kp RIGHT  &bt BT_NXT               &tog 1  &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &none   &none     &none         &none      &bt BT_CLR               &none   &none  &none      &none      &none      &trans
+&trans  &trans  &trans    &trans        &sl 4                        &sl 3  &trans                                          &trans
             >;
         };
     };
