@@ -41,8 +41,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-space$$
-  - {t: SYM, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$'}
+  - SYM
+  - NUM
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:alpha-w-box$$
   WIN:
