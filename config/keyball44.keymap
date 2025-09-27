@@ -1,9 +1,9 @@
 #define DEFAULT 0
 #define WIN     1
 #define QWRT    2
-#define NUM     3
-#define SYM     4
-#define MOUSE   5
+#define MOUSE   3
+#define NUM     4
+#define SYM     5
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
