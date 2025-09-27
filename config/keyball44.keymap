@@ -48,6 +48,16 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        bkdel: back_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACK_DELETE";
+            bindings = <&kp BACKSPACE>, <&kp DEL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -56,30 +66,30 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB         &kp Q        &kp W           &kp F           &kp P             &kp B                 &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
-&kp LEFT_GUI    &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G                 &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X           &kp C           &kp D             &kp V                 &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &kp RIGHT_SHIFT
-&kp ESCAPE      &kp DELETE   &kp BACKSPACE   &kp SPACE       &mo 4                        &kp ENTER  &lt 3 TAB                                                                      &mo 5
+&kp ESC         &kp Q        &kp W           &kp F           &kp P             &kp B             &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp BACKSPACE
+&kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G             &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp SQT
+&kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V             &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &kp RIGHT_SHIFT
+&caps_word      &kp TAB      &bkdel          &kp SPACE       &mo 4                        &sl 3  &kp ENTER                                                                      &sl 5
             >;
         };
 
         windows_layer {
             label = "WIN";
             bindings = <
-&trans     &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
-&kp LCTRL  &mt LEFT_GUI A  &trans  &mt LCTRL S  &trans  &trans              &trans  &trans  &mt RCTRL E  &trans  &mt RIGHT_GUI O  &trans
-&trans     &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
-&trans     &trans          &trans  &trans       &trans              &trans  &trans                                                &trans
+&trans            &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
+&trans            &mt LEFT_GUI A  &trans  &mt LCTRL S  &trans  &trans              &trans  &trans  &mt RCTRL E  &trans  &mt RIGHT_GUI O  &trans
+&kp LEFT_CONTROL  &trans          &trans  &trans       &trans  &trans              &trans  &trans  &trans       &trans  &trans           &trans
+&trans            &trans          &trans  &trans       &trans              &trans  &trans                                                &trans
             >;
         };
 
         qwerty_layer {
             label = "QWRT";
             bindings = <
-&trans     &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U  &kp I      &kp O    &kp P      &trans
-&kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G              &kp H   &kp J  &kp K      &kp L    &kp SEMI   &trans
-&trans     &kp Z   &kp X   &kp C   &kp V   &kp B              &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH  &trans
-&trans     &trans  &trans  &trans  &trans             &trans  &trans                                        &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U  &kp I      &kp O    &kp P      &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &kp G              &kp H   &kp J  &kp K      &kp L    &kp SEMI   &trans
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B              &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans  &trans  &trans  &trans  &trans             &trans  &trans                                        &trans
             >;
         };
 
