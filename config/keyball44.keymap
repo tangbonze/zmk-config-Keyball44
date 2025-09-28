@@ -8,9 +8,7 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
@@ -63,12 +61,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "DEFAULT";
+            label = "MAC";
             bindings = <
-&kp ESC         &kp Q        &kp W           &kp F           &kp P             &kp B             &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp DELETE
-&kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G             &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp RIGHT_CONTROL
-&kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V             &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 3
-&kp LEFT_ALT    &kp TAB      &bkdel          &kp SPACE       &mo 5                        &mo 4  &kp ENTER                                                                      &caps_word
+&caps_word      &kp Q        &kp W           &kp F           &kp P             &kp B              &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp DELETE
+&kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G              &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp RIGHT_CONTROL
+&kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V              &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 4
+&kp LEFT_ALT    &kp ESCAPE   &kp TAB         &lt 4 SPACE     &mo 3                        &bkdel  &kp ENTER                                                                      &mo 3
             >;
         };
 
@@ -82,33 +80,23 @@
             >;
         };
 
-        qwerty_layer {
-            label = "QWRT";
+        game_layer {
+            label = "GAME";
             bindings = <
-&trans  &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U  &kp I      &kp O    &kp P      &trans
-&trans  &kp A   &kp S   &kp D   &kp F   &kp G              &kp H   &kp J  &kp K      &kp L    &kp SEMI   &trans
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B              &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH  &trans
-&trans  &trans  &trans  &trans  &trans             &trans  &trans                                        &trans
+&trans            &kp Q   &kp W   &kp E      &kp R   &kp T              &kp Y   &kp U  &kp I      &kp O    &kp P      &trans
+&trans            &kp A   &kp S   &kp D      &kp F   &kp G              &kp H   &kp J  &kp K      &kp L    &kp SEMI   &kp RIGHT_GUI
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C      &kp V   &kp B              &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans            &trans  &trans  &kp SPACE  &trans             &trans  &trans                                        &trans
             >;
         };
 
-        mouse_layer {
-            label = "MOUSE";
+        nav_layer {
+            label = "NAV";
             bindings = <
-&trans  &none   &none     &kp UP_ARROW  &none      &out OUT_TOG              &tog 2  &none  &none      &none      &none      &trans
-&trans  &none   &kp LEFT  &kp DOWN      &kp RIGHT  &bt BT_NXT                &tog 1  &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &none   &none     &none         &none      &bt BT_CLR                &none   &none  &none      &none      &none      &trans
-&trans  &trans  &trans    &trans        &trans                       &trans  &trans                                          &trans
-            >;
-        };
-
-        number_layer {
-            label = "NUM";
-            bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &none              &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
-&trans  &trans  &trans   &trans   &trans              &trans  &trans                                                       &trans
+&trans  &kp N1    &kp N2          &kp N3        &kp N4     &kp N5                     &kp N6  &kp N7     &kp N8     &kp N9     &kp N0  &trans
+&trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PG_UP                  &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none   &trans
+&trans  &none     &none           &none         &none      &kp PAGE_DOWN              &tog 1  &none      &none      &none      &tog 2  &trans
+&trans  &trans    &trans          &trans        &trans                        &trans  &trans                                           &trans
             >;
         };
 
