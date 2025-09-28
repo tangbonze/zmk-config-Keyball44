@@ -66,7 +66,7 @@
 &caps_word      &kp Q        &kp W           &kp F           &kp P             &kp B              &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp DELETE
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G              &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp RIGHT_CONTROL
 &kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V              &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 4
-&kp LEFT_ALT    &kp ESCAPE   &mo 3           &kp SPACE       &lt 4 TAB                    &bkdel  &kp ENTER                                                                      &mo 3
+&kp LEFT_ALT    &kp ESCAPE   &kp TAB         &lt 4 SPACE     &lt 3 TAB                    &bkdel  &kp ENTER                                                                      &mo 3
             >;
         };
 
