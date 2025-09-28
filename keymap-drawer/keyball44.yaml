@@ -110,9 +110,9 @@ layers:
   - F4
   - F5
   - F6
-  - F7
-  - F8
-  - F9
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: F10, h: L2, type: held}
   - {t: '''', h: L3, s: '"', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
