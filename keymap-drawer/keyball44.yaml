@@ -41,7 +41,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - NAV
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - NAV
