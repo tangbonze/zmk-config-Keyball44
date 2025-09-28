@@ -90,13 +90,13 @@
             >;
         };
 
-        nav_layer {
+        navigation_layer {
             label = "NAV";
             bindings = <
-&trans  &kp N1    &kp N2          &kp N3        &kp N4     &kp N5                     &kp N6  &kp N7     &kp N8     &kp N9     &kp N0  &trans
-&trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PG_UP                  &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none   &trans
-&trans  &none     &none           &none         &none      &kp PAGE_DOWN              &tog 1  &none      &none      &none      &tog 2  &trans
-&trans  &trans    &trans          &trans        &trans                        &trans  &trans                                           &trans
+&trans  &kp N1    &kp N2          &kp N3        &kp N4     &kp N5              &kp N6  &kp N7     &kp N8     &kp N9     &kp N0  &trans
+&trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &tog 1              &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none   &trans
+&trans  &kp HOME  &kp PAGE_DOWN   &kp PG_UP     &kp END    &tog 2              &none   &none      &none      &none      &none   &trans
+&trans  &trans    &trans          &trans        &trans                 &trans  &trans                                           &trans
             >;
         };
 
