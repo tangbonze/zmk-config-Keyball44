@@ -77,7 +77,7 @@
             label = "L2";
             bindings = <
 &kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&lt 3 LEFT_CONTROL  &mt A F1      &kp F2        &kp F3         &kp F4        &kp F5                    &kp F6        &kp F7        &kp F8        &kp F9        &lt 2 F10     &lt 3 SQT
+&lt 3 LEFT_CONTROL  &mt A F1      &kp F2        &kp F3         &kp F4        &kp F5                    &kp F6        &mkp LCLK     &mkp MCLK     &mkp RCLK     &lt 2 F10     &lt 3 SQT
 &none               &kp LG(Z)     &kp LG(X)     &kp LG(C)      &kp LG(V)     &mkp MCLK                 &kp F11       &kp F12       &kp COMMA     &kp PERIOD    &kp SLASH     &kp CAPSLOCK
 &mkp LCLK           &mkp RCLK     &trans        &kp BACKSPACE  &trans                          &trans  &lt 4 TAB                                                             &trans
             >;
