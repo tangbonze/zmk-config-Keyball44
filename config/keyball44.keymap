@@ -2,7 +2,7 @@
 #define WIN     1
 #define GAME    2
 #define NAV     3
-#define SCROLL  4
+#define ARROW   4
 #define SYM     5
 
 #include <behaviors/mouse_keys.dtsi>
@@ -14,11 +14,11 @@
 &trackball {
     // automouse-layer = <4>;
 
-    scroll-layers = <SCROLL>;
+    scroll-layers = <SYM>;
     snipe-layers = <NAV>;
 
     arrows {
-        layers = <SYM>;
+        layers = <ARROW>;
         bindings =
             <&kp RIGHT_ARROW>,
             <&kp LEFT_ARROW>,
