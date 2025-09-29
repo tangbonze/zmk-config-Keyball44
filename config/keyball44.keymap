@@ -120,8 +120,8 @@
             >;
         };
 
-        scroll_layer {
-            label = "SCROLL";
+        arrow_layer {
+            label = "ARROW";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
