@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kloir-z
-      revision: main
+      revision: scroll-acceleration-feature
   self:
     path: config
