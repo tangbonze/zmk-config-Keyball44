@@ -115,10 +115,10 @@
         navigation_layer {
             label = "NAV";
             bindings = <
-&trans  &out OUT_TOG  &kp N9        &kp N8        &kp N7        &kp MINUS                 &none   &none      &none      &none      &none  &trans
-&trans  &bt BT_NXT    &kp NUMBER_6  &kp N5        &kp NUMBER_4  &kp PERIOD                &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &trans
-&trans  &bt BT_CLR    &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0              &none   &none      &none      &none      &none  &trans
-&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                          &trans
+&trans  &out OUT_TOG  &kp N9        &kp N8        &kp N7        &kp MINUS                 &tog 1  &none      &none      &none      &kp PAGE_UP    &trans
+&trans  &bt BT_NXT    &kp NUMBER_6  &kp N5        &kp NUMBER_4  &kp PERIOD                &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none          &trans
+&trans  &bt BT_CLR    &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0              &tog 2  &none      &none      &none      &kp PAGE_DOWN  &trans
+&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                  &trans
             >;
         };
 
