@@ -110,9 +110,9 @@ layers:
   - F4
   - F5
   - F6
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - F7
+  - F8
+  - F9
   - {t: F10, h: L2, type: held}
   - {t: '''', h: L3, s: '"', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -201,15 +201,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:mouse-scroll-wheel$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: ;, h: L2, s: ':', type: held}
+  - {t: '''', h: L3, s: '"', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
