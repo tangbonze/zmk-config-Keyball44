@@ -8,7 +8,9 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &trackball {
@@ -113,10 +115,10 @@
         navigation_layer {
             label = "NAV";
             bindings = <
-&trans  &kp N1    &kp N2          &kp N3        &kp N4     &kp N5              &kp N6  &kp N7     &kp N8     &kp N9     &kp N0  &trans
-&trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &tog 1              &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none   &trans
-&trans  &kp HOME  &kp PAGE_DOWN   &kp PG_UP     &kp END    &tog 2              &none   &none      &none      &none      &none   &trans
-&trans  &trans    &trans          &trans        &trans                 &trans  &trans                                           &trans
+&trans  &out OUT_TOG  &kp N9        &kp N8        &kp N7        &kp MINUS                 &none   &none      &none      &none      &none  &trans
+&trans  &bt BT_NXT    &kp NUMBER_6  &kp N5        &kp NUMBER_4  &kp PERIOD                &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &trans
+&trans  &bt BT_CLR    &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0              &none   &none      &none      &none      &none  &trans
+&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                          &trans
             >;
         };
 
