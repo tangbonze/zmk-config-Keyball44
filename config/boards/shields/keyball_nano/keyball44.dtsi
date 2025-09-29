@@ -141,4 +141,4 @@
         status = "disabled";
         reg = <0>;
     };
-};:
+};
