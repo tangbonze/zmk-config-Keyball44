@@ -28,6 +28,7 @@
             <&kp DOWN_ARROW>;
 
         tick = <50>;
+
         // wait-ms = <5>;
         // tap-ms = <5>;
     };
@@ -87,8 +88,8 @@
             bindings = <
 &caps_word      &kp Q        &kp W           &kp F           &kp P             &kp B              &kp J      &kp L              &kp U            &kp Y            &kp SEMICOLON  &kp DELETE
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G              &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O    &kp RIGHT_CONTROL
-&kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V              &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 4
-&kp LEFT_ALT    &kp ESCAPE   &lt 5 TAB       &lt 4 SPACE     &mo 3                        &bkdel  &kp ENTER                                                                      &mo 3
+&kp LEFT_GUI    &kp Z        &kp X           &kp C           &kp D             &kp V              &kp K      &kp H              &kp COMMA        &kp PERIOD       &kp SLASH      &mo 5
+&kp LEFT_ALT    &kp ESCAPE   &lt 4 TAB       &lt 5 SPACE     &mo 3                        &bkdel  &kp ENTER                                                                      &mo 3
             >;
         };
 
@@ -115,9 +116,9 @@
         navigation_layer {
             label = "NAV";
             bindings = <
-&trans  &out OUT_TOG  &kp N9        &kp N8        &kp N7        &kp MINUS                 &tog 1  &none      &none      &none      &kp PAGE_UP    &trans
+&trans  &out OUT_TOG  &kp N9        &kp N8        &kp N7        &kp MINUS                 &tog 2  &none      &none      &none      &kp PAGE_UP    &trans
 &trans  &bt BT_NXT    &kp NUMBER_6  &kp N5        &kp NUMBER_4  &kp PERIOD                &none   &mkp LCLK  &mkp RCLK  &mkp MCLK  &none          &trans
-&trans  &bt BT_CLR    &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0              &tog 2  &none      &none      &none      &kp PAGE_DOWN  &trans
+&trans  &bt BT_CLR    &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0              &tog 1  &none      &none      &none      &kp PAGE_DOWN  &trans
 &trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                  &trans
             >;
         };
