@@ -56,10 +56,10 @@
         default_layer {
             label = "L0";
             bindings = <
-&kp ESCAPE      &kp Q     &kp W             &kp E            &kp R      &kp T                 &kp Y      &kp U  &kp I      &kp O    &kp P       &kp BACKSPACE
-&kp LCTRL       &kp A     &kp S             &kp D            &kp F      &kp G                 &kp H      &kp J  &kp K      &kp L    &lt 2 SEMI  &lt 2 SQT
-&kp LEFT_SHIFT  &kp Z     &kp X             &kp C            &kp V      &kp B                 &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH   &kp RIGHT_SHIFT
-&kp LGUI        &kp LALT  &kp LEFT_COMMAND  &lt 1 BACKSPACE  &kp SPACE             &kp ENTER  &lt 1 TAB                                         &kp RIGHT_ALT
+&kp ESCAPE      &kp Q     &kp W            &kp E      &kp R             &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P       &kp BACKSPACE
+&kp LCTRL       &kp A     &kp S            &kp D      &kp F             &kp G                     &kp H      &kp J  &kp K      &kp L    &lt 2 SEMI  &lt 2 SQT
+&kp LEFT_SHIFT  &kp Z     &kp X            &kp C      &kp V             &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH   &kp RIGHT_SHIFT
+&kp LGUI        &kp LALT  &lt 1 BACKSPACE  &kp SPACE  &kp LEFT_COMMAND             &kp RIGHT_ALT  &kp ENTER                                         &lt 1 TAB
             >;
         };
 
@@ -76,10 +76,10 @@
         nums_shortcuts_layer {
             label = "L2";
             bindings = <
-&kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&lt 3 LEFT_CONTROL  &mt A F1      &kp F2        &kp F3         &kp F4        &kp F5                    &kp F6        &kp F7        &kp F8        &kp F9        &lt 2 F10     &lt 3 SQT
-&none               &kp LG(Z)     &kp LG(X)     &kp LG(C)      &kp LG(V)     &mkp MCLK                 &kp F11       &kp F12       &kp COMMA     &kp PERIOD    &kp SLASH     &kp CAPSLOCK
-&mkp LCLK           &mkp RCLK     &trans        &kp BACKSPACE  &trans                          &trans  &lt 4 TAB                                                             &trans
+&kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&lt 3 LEFT_CONTROL  &mt A F1      &kp F2        &kp F3        &kp F4        &kp F5                    &kp F6        &kp F7        &kp F8        &kp F9        &lt 2 F10     &lt 3 SQT
+&none               &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &mkp MCLK                 &kp F11       &kp F12       &kp COMMA     &kp PERIOD    &kp SLASH     &kp CAPSLOCK
+&mkp LCLK           &mkp RCLK     &trans        &trans        &trans                          &trans  &lt 4 TAB                                                             &trans
             >;
         };
 
