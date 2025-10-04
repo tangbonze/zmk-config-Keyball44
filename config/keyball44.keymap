@@ -69,7 +69,7 @@
 &trans          &kp EXCLAMATION  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE               &kp EQUAL      &kp PLUS       &kp MINUS     &kp UNDERSCORE     &kp ASTERISK  &none
 &trans          &kp HASH         &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE              &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT          &lt 2 COLON   &lt 2 SQT
 &kp LEFT_SHIFT  &kp PERCENT      &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE              &kp AMPERSAND  &kp BACKSLASH  &kp SQT       &kp DOUBLE_QUOTES  &trans        &trans
-&trans          &trans           &trans      &trans                &trans                                &trans  &kp BACKSPACE                                                                &kp RIGHT_ALT
+&trans          &trans           &trans      &trans                &trans                                &trans  &trans                                                                       &kp RIGHT_ALT
             >;
         };
 
@@ -86,19 +86,19 @@
         extended_layer {
             label = "L3";
             bindings = <
-&to 0   &kp EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DOLLAR    &bt BT_CLR                &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&to 1   &bt BT_DISC 0    &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_SEL 2  &trans                    &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &lt 2 SEMICOLON        &lt 3 SQT
-&to 2   &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4              &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH   &none
-&trans  &trans           &trans         &trans         &trans                          &trans  &trans                                                                                        &trans
+&to 0  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DOLLAR    &bt BT_CLR                &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&to 1  &bt BT_DISC 0    &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_SEL 2  &trans                    &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &lt 2 SEMICOLON        &lt 3 SQT
+&to 2  &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4              &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH   &none
+&to 4  &trans           &kp DELETE     &trans         &trans                          &trans  &trans                                                                                        &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &kp N1          &kp N2          &kp N3        &kp N4           &kp N5              &kp N6         &kp N7     &kp N8     &kp N9     &kp N0           &none
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none               &kp PAGE_UP    &mkp LCLK  &mkp MCLK  &mkp RCLK  &lt 2 SEMICOLON  &lt 3 SQT
-&none   &none           &none           &kp C_VOL_DN  &kp C_VOLUME_UP  &none               &kp PAGE_DOWN  &none      &none      &none      &none            &none
+&trans  &kp N1          &kp N2          &kp N3        &kp N4           &kp N5              &kp N6         &kp N7     &kp N8     &kp N9     &kp N0           &none
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none               &kp PAGE_UP    &mkp LCLK  &mkp MCLK  &mkp RCLK  &lt 2 SEMICOLON  &lt 3 SQT
+&trans  &none           &none           &kp C_VOL_DN  &kp C_VOLUME_UP  &none               &kp PAGE_DOWN  &none      &none      &none      &none            &none
 &trans  &trans          &trans          &trans        &trans                       &trans  &trans                                                           &none
             >;
         };
