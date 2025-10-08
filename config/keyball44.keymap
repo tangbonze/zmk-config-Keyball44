@@ -56,10 +56,10 @@
         default_layer {
             label = "L0";
             bindings = <
-&kp ESCAPE      &kp Q     &kp W            &kp E      &kp R             &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P       &kp BACKSPACE
-&kp LCTRL       &kp A     &kp S            &kp D      &kp F             &kp G                     &kp H      &kp J  &kp K      &kp L    &lt 2 SEMI  &lt 2 SQT
-&kp LEFT_SHIFT  &kp Z     &kp X            &kp C      &kp V             &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH   &kp RIGHT_SHIFT
-&kp LGUI        &kp LALT  &lt 1 BACKSPACE  &kp SPACE  &kp LEFT_COMMAND             &kp RIGHT_ALT  &kp ENTER                                         &lt 1 TAB
+&kp ESCAPE      &kp Q     &kp W            &kp E      &kp R             &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P        &kp BACKSPACE
+&kp LCTRL       &kp A     &kp S            &kp D      &kp F             &kp G                     &kp H      &kp J  &kp K      &kp L    &lt 2 SEMI   &lt 2 SQT
+&kp LEFT_SHIFT  &kp Z     &kp X            &kp C      &kp V             &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH  &kp RIGHT_SHIFT
+&kp LGUI        &kp LALT  &lt 1 BACKSPACE  &kp SPACE  &kp LEFT_COMMAND             &kp RIGHT_ALT  &kp ENTER                                          &lt 1 TAB
             >;
         };
 
@@ -96,10 +96,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &kp N1          &kp N2          &kp N3        &kp N4           &kp N5              &kp N6         &kp N7     &kp N8     &kp N9     &kp N0           &none
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none               &kp PAGE_UP    &mkp LCLK  &mkp MCLK  &mkp RCLK  &lt 2 SEMICOLON  &lt 3 SQT
-&trans  &none           &none           &kp C_VOL_DN  &kp C_VOLUME_UP  &none               &kp PAGE_DOWN  &none      &none      &none      &none            &none
-&trans  &trans          &trans          &trans        &trans                       &trans  &trans                                                           &none
+&trans  &kp N1          &kp N2          &kp N3        &kp N4           &kp N5              &kp N6         &kp N7        &kp N8          &kp N9     &kp N0           &none
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none               &kp PAGE_UP    &mkp LCLK     &mkp MCLK       &mkp RCLK  &lt 2 SEMICOLON  &lt 3 SQT
+&trans  &none           &none           &kp C_VOL_DN  &kp C_VOLUME_UP  &none               &kp PAGE_DOWN  &msc SCRL_UP  &msc SCRL_DOWN  &none      &none            &none
+&trans  &trans          &trans          &trans        &trans                       &trans  &trans                                                                   &none
             >;
         };
 
