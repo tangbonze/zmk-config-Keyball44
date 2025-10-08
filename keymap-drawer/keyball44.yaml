@@ -35,7 +35,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: L1, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -80,11 +80,11 @@ layers:
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -125,7 +125,7 @@ layers:
   - F12
   - {t: ',', s: <}
   - .
-  - {t: /, s: '?'}
+  - {t: /, s: '?', type: held alternate}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -170,7 +170,7 @@ layers:
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - \
+  - {t: \, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: MOUSE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -212,10 +212,10 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
+  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
