@@ -41,7 +41,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', h: L1}
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-tab$$', h: L1}
