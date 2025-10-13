@@ -12,9 +12,9 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: L0, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - A
+  - {t: A, h: L2}
   - S
   - D
   - F
@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: L2, s: ':'}
   - {t: '''', h: L2, s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - {t: Z, h: L1}
   - X
   - C
   - V
@@ -71,7 +71,7 @@ layers:
   - {t: ':', h: L2}
   - {t: '''', h: L2, s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - '%'
+  - {t: '%', type: held}
   - ^
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -80,7 +80,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
   - '"'
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -104,7 +104,7 @@ layers:
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-control$$', h: L3}
-  - {t: F1, h: A}
+  - {t: F1, h: A, type: held}
   - F2
   - F3
   - F4
@@ -113,10 +113,10 @@ layers:
   - F7
   - F8
   - F9
-  - {t: F10, h: L2, type: held}
+  - {t: F10, h: L2, type: held alternate}
   - {t: '''', h: L3, s: '"', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$', type: held alternate}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
@@ -149,7 +149,7 @@ layers:
   - )
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: L1, h: toggle, type: held}
-  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '0', type: held}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -161,7 +161,7 @@ layers:
   - {t: ;, h: L2, s: ':', type: held}
   - {t: '''', h: L3, s: '"', type: held}
   - {t: L2, h: toggle}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$', type: held}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
@@ -192,9 +192,9 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: L0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
@@ -206,7 +206,7 @@ layers:
   - {t: ;, h: L2, s: ':', type: held}
   - {t: '''', h: L3, s: '"', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
