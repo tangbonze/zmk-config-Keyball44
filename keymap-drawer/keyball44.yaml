@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-tab$$', h: L1}
   L1:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - '!'
   - '@'
   - '{'
@@ -194,11 +194,11 @@ layers:
   - {t: '0', s: )}
   - {t: L0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:arrow-left-bold$$', type: held}
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: L0, h: toggle, type: held}
+  - {t: L0, h: toggle}
+  - {t: L0, h: toggle}
+  - {t: L0, h: toggle}
+  - $$mdi:pan-up$$
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -210,7 +210,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-down$$
   - PgDn
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
