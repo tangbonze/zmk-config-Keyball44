@@ -66,4 +66,12 @@
     device = <&trackball>;
 
   };
+
+  behaviors {
+    amt: auto_mouse_timeout {
+      compatible = "zmk,behavior-auto-mouse-timeout";
+      label = "AUTO_MOUSE_TIMEOUT";
+      #binding-cells = <1>;
+    };
+  };
 };
