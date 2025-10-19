@@ -4,13 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
+    - name: dangnm
+      url-base: https://github.com/dangnm
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: kumamuk-git
-      revision: main
+      remote: dangnm
+      revision: auto_mouse_timeout_runtime
   self:
     path: config
