@@ -4,7 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: tangbonze
       url-base: https://github.com/tangbonze
+    - name: nuovotaka
+      url-base: https://github.com/nuovotaka
   projects:
+    - name: zmk-pointing-acceleration-alpha
+      remote: nuovotaka
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.2

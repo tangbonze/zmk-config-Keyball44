@@ -1,7 +1,7 @@
 if SHIELD_KEYBALL44_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Keyball44"
+	default "AWH's Keyball"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
