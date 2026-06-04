@@ -39,11 +39,15 @@ manifest:
           - trusted-firmware-m
     - name: zmk-pmw3610-driver
     - name: zmk-feature-default-layer
+      revision: zmk-v0.3.0.0
     - name: zmk-driver-animation
+      revision: zmk-v0.3.0.0
     - name: zmk-driver-ext-power-transient
     - name: zmk-module-ble-management
+      revision: zmk-v0.3.0.0
     - name: zmk-module-battery-history
     - name: zmk-module-runtime-input-processor
+      revision: zmk-v0.3.0.0
     - name: zmk-behavior-runtime-sensor-rotate
     - name: zmk-module-settings-rpc
   self:
