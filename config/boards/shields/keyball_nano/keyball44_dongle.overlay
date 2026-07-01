@@ -79,4 +79,19 @@
             , <&key_physical_attrs 100 100 1400  350       0     0     0>
             ;
     };
+
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        trackball_split: trackball@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+        };
+    };
+
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball_split>;
+    };
 };
