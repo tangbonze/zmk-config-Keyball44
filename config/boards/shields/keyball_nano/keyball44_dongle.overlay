@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
+#include <input/processors.dtsi>
 
 / {
     chosen {
@@ -93,5 +94,16 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_split>;
+        input-processors = <&zip_temp_layer 4 700>;
+
+        scroll {
+            layers = <5>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
+
+        snipe {
+            layers = <6>;
+            input-processors = <&zip_xy_scaler 1 3>;
+        };
     };
 };
