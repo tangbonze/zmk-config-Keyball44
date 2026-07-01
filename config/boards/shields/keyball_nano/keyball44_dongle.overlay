@@ -15,6 +15,14 @@
         events = <0>;
     };
 
+    nice_view_spi: dummy_spi {
+    };
+
+    pro_micro: dummy_pro_micro {
+        gpio-controller;
+        #gpio-cells = <2>;
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
