@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - dya
+      - dya-nv
   pull_request:
   workflow_dispatch:
     inputs:
